@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(94, 107, 126,255);
+    /* font-family: Arial, sans-serif; */
+}
+
+.Container {
+    display: flex;
+    gap: 60px;
+}
+
+.Calculator {
+    border-radius: 1px;
+    padding: 15px;
+    width: 410px;
+    height: 590px;
+    border-radius: 25px;
+}
+
+input{
+    width: 360px;
+    padding: 17px;
+    font-size: 49px;
+    text-align: right;
+    margin: 10px;
+    border: none;
+    background: transparent;
+    border-style: none;
+}
+
+button {
+    /* background-color:white; */
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border-radius: 17px;
+    font-size: 30px;
+    /* font-weight: 545; */
+    /* color: black; */
+    border: none;
+   
+}
+.zero{
+    width: 162px;
+    text-align: left;
+    padding-left: 30px;
+    /* height: 70px; */
+}
+.orange{
+    color: rgb(255, 166, 0);
+}
+
+
+.gray{
+    color: gray;
+}
+
+
+/* white .calculator */
+.light-theme {
+    background-color: white;
+}
+
+.light-theme button {
+    background-color: white;
+    box-shadow: 0px 0px 25px rgba(2, 10, 0, 0.219);
+}
+
+.light-theme input::placeholder {
+    color: rgb(4, 1, 7);
+}
+
+/* Dark them*/
+
+.dark-theme{
+    background-color:rgba(30, 40, 55, 255);
+}
+
+.dark-theme button {
+    background-color: rgba(30, 41, 61, 255);
+    color: white;
+    box-shadow: 0px 0px 35px rgba(2, 10, 0, 0.219);
+}
+
+/* .dark-theme {
+    color: white;
+} */
+
+/* #darkDisplay{
+    color-scheme: white;
+} */
+
+.dark-theme input {
+    color: white; 
+}
+
+#orange{
+    color: orange;
+
+}
+
+#gray{
+    color: gray;
+}
+
+/* for text*/
+
+.text {
+    text-align: right;
+    width: 600px;
+    height: 170px;
+    background-color: rgba(92, 101, 116, 255);
+    transform: rotate(90deg);
+    position: fixed;
+    left: -213px;
+    bottom: 218px;
+    padding: 40px 210px 40px 40px;
+    font-size: 30px;
+    color: white;
+}
+
